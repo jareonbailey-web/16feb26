@@ -1,6 +1,8 @@
 print("Hello, World!")
 
-def greet(name):
-    return f"Hello, {name}!"
+def greet():
+    return "Hello, class!"
 
-print (result := greet("Alice") )
+result = greet()
+
+print(result)
